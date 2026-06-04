@@ -7,6 +7,10 @@
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 720
 
+# Lunaris Maintainer prop
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.lunaris.maintainer=Shipu
+
 # Screen
 TARGET_SCREEN_DENSITY := 280
 
