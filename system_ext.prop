@@ -1,2 +1,9 @@
 # Display
 sys.brightness.disable_gamma_conversion=true
+
+#Infinity 
+ro.product.marketname=Motorola moto g34 5G
+ro.infinity.soc=Snapdragon 695
+ro.infinity.battery=5000 mAh
+ro.infinity.display=720 x 1600, 120 Hz
+ro.infinity.camera=50MP + 2MP + 16MP
