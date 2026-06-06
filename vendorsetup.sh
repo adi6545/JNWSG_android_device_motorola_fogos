@@ -34,3 +34,7 @@ if ! grep -q "MotCamera4/motcamera4.mk" device/motorola/fogos/device.mk 2>/dev/n
     echo "" >> device/motorola/fogos/device.mk
     echo "$MOTCAMERA_BLOCK" >> device/motorola/fogos/device.mk
 fi
+# InfinityX Build Setup for Moto G34 (fogos)
+for variant in user userdebug eng; do
+    add_lunch_combo infinity_fogos-$variant
+done
