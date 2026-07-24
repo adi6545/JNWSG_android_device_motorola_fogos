@@ -21,7 +21,7 @@ PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g34 5G
 
 # Infinity Flags
-INFINITY_MAINTAINER := Shipu
+INFINITY_MAINTAINER := Aditya
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
