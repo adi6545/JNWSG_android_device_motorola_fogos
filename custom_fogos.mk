@@ -11,17 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from fogos device
 $(call inherit-product, device/motorola/fogos/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelOS stuff.
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
-#Axion Stuff
-TARGET_ENABLE_BLUR := true
-AXION_CAMERA_REAR_INFO := 50,2
-AXION_CAMERA_FRONT_INFO := 16
-AXION_MAINTAINER := Shipu
-AXION_PROCESSOR := SM6375
-
-PRODUCT_NAME := lineage_fogos
+PRODUCT_NAME := custom_fogos
 PRODUCT_DEVICE := fogos
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
