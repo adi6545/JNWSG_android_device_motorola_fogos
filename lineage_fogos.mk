@@ -22,7 +22,7 @@ PRODUCT_NAME := lineage_fogos
 PRODUCT_DEVICE := fogos
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_BRAND := Motorola
-PRODUCT_MODEL := Moto G34
+PRODUCT_MODEL := G34
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
