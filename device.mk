@@ -9,7 +9,7 @@ TARGET_SCREEN_WIDTH := 720
 
 # Lunaris Maintainer prop
 PRODUCT_SYSTEM_PROPERTIES += \
-    ro.lunaris.maintainer=Shipu
+    ro.lunaris.maintainer=Aditya
 
 # Screen
 TARGET_SCREEN_DENSITY := 280
@@ -33,7 +33,6 @@ PRODUCT_PACKAGES += \
     LineageApertureAppDevice \
     ProductFrameworksResDevice \
     SystemUIResDevice \
-    TurboPowerOverlay \
     WifiResDevice \
     WifiResDeviceXT2363-8 \
     WifiResDeviceXT2363-9
